@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="en" style="width:300px;height:400px;">
+
+
+<!--Read in values from the excel file
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackWestTX 2024</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.2/xlsx.full.min.js"></script>
+</head>
+
+
+
+<body>
+
+    <!------------------------------------------------------
+        Menu Screen
+    -------------------------------------------------------->
+        <div id="menu" class="section active">
+        <h1>Credit Card<br>Optimization</h1>
+        
+        <p>Select the credit cards that you use and the stores MCC code, then press submit.</p>
+ 
+        </div>
+
+        
+            <div class="checklist">
+                <label><input type="checkbox" value="Chase Freedom Unlimited">Chase Freedom Unlimited</label>
+                <br>
+                <label><input type="checkbox" value="Wells Fargo Active Cash Card">Wells Fargo Active Cash Card</label>
+                <br>
+                <label><input type="checkbox" value="Capital One Venture Rewards Credit Card">Capital One Venture Rewards Credit Card</label>
+                <br>
+                <label><input type="checkbox" value="Blue Cash Preferred Cash from American Express">Blue Cash Preferred Cash from American Express</label>
+                <br>
+                <label><input type="checkbox" value="Capital One SavorOne Cash Rewards Credit Card">Capital One SavorOne Cash Rewards Credit Card</label>
+                <br>
+                <label><input type="checkbox" value="Chase Sapphire Preferred Card">Chase Sapphire Preferred Card</label>
+                <br>
+                <label><input type="checkbox" value="US Band Visa Platinum Card">US Band Visa Platinum Card"</label>
+                <br>
+                <label><input type="checkbox" value="Wells Fargo Reflect Card">Wells Fargo Reflect Card</label>
+                <br>
+                <label><input type="checkbox" value="Discover It Cash Back">Discover It Cash Back</label>
+                <br>
+                <label><input type="checkbox" value="Darb Card">Darb Card</label>
+                <br><br>
+            </div>
+
+            <input type="text" id="mcc-code-input" placeholder="Enter MCC Code">
+            
+            <br><br>
+        
+            <div id="results-container"></div>
+        
+        
+            <form id="navigate-form">
+                <button id="submit" type="submit">Submit</button>
+            </form>
+
+            <div id="ranked-results">
+                <ul id="ranking-list"></ul>
+            </div>
+
+            
+ 
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<script src="popup.js"></script>
+</body>
+</html>
+
+

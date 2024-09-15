@@ -1,10 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "HackWestTX 2024 Extension",
   "version": "1.0",
+  "description": "An example Chrome extension.",
   "action": {
-    "default_popup": "index.html",
-    "default_icon": "hello_extensions.png"
+    "default_popup": "popup.html",
+    "default_icon": {
+    }
+  },
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
   }
+
 }
+

@@ -1,0 +1,76 @@
+
+
+.card_text {
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 48px;
+    color: #3E4A3D;
+    text-align: center; /* Center text within the element */
+    display:flex;
+    text-align: justify;
+    text-align-last: center;
+}
+
+p{
+padding: 20px;
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: normal;
+font-size: 30px;
+color: #3E4A3D;
+text-align: center; /* Center text within the element */
+display:flex;
+text-align-last: center;
+}
+
+.benefits{
+    margin-left:10%;
+    padding:20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 24px;
+    color:#3E4A3D;
+    display:flex;
+}
+
+.page {
+    display: none;
+}
+.page.active {
+    display: block;
+}
+
+.filter-icon {
+    font-size: 24px; /* Adjust size */
+    color: #A1AFA0; /* Adjust color */
+}
+
+.icon-button {
+    background: none; /* Remove default background */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    outline: none; /* Remove focus outline */
+    font-size: 24px; /* Adjust size */
+    color: #A1AFA0; /* Adjust color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+
+/*  HIDE ALL PAGES BY DEFAULT */
+
+.section {
+    display: none;
+}
+.section.active {
+    display: block;
+}
+.icon-button {
+    cursor: pointer;
+}
+
+/*------------------------------

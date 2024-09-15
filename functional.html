@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" style="width:350px;height:400px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackWestTX 2024</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.2/xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <div id="functional">
+        <nav>
+            <button class="icon-button" style="margin-right:10px;" data-page="filter">
+                <i class="fa-solid fa-filter filter-icon"></i>
+            </button>
+            <button id="menu_button" class="icon-button" style="margin-right:10px;" data-page="menu">
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </button>
+            <button id="close-popup" class="icon-button" style="margin-right:10px;" data-page="close">
+                <i class="fa-solid fa-xmark close-icon"></i>
+            </button>
+        </nav>
+
+        <div id="results-container"></div>
+
+        <!-- Sections for Each Type of Credit Card -->
+        <section id="Chase_Freedom_Unlimited" style="background-color:#DBF9D8;">
+            <br>
+            <p>Chase Freedom Unlimited</p>
+            <i class="fa-brands fa-cc-visa" style="font-size:60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="Wells_Fargo_Active_Cash_Card" style="background-color:#EEF9ED;">
+            <br>
+            <p>Wells Fargo Active Cash Card</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="Capital_One_Venture_Rewards_Credit_Card" style="background-color:#EEF9ED;">
+            <br>
+            <p>Capital One Venture Rewards Credit Card</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="Blue_Cash_Preferred_Cash_from_American_Express" style="background-color:#EEF9ED;">
+            <br>
+            <p>Blue Cash Preferred Cash from American Express</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="Capital_One_SavorOne_Cash_Rewards_Credit_Card" style="background-color:#EEF9ED;">
+            <br>
+            <p>Capital One SavorOne Cash Rewards Credit Card</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="Chase_Sapphire_Preferred_Card" style="background-color:#EEF9ED;">
+            <br>
+            <p>Chase Sapphire Preferred Card</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="US_Band_Visa_Platinum_Card" style="background-color:#EEF9ED;">
+            <br>
+            <p>US Band Visa Platinum Card</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="Wells_Fargo_Reflect_Card" style="background-color:#EEF9ED;">
+            <br>
+            <p>Wells Fargo Reflect Card</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="Discover_It_Cash_Back" style="background-color:#EEF9ED;">
+            <br>
+            <p>Discover It Cash Back</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+        <section id="Darb_Card" style="background-color:#EEF9ED;">
+            <br>
+            <p>Darb Card</p>
+            <i class="fa-brands fa-cc-visa" style="font-size: 60px; color: #184975;margin-left:20%"></i>
+            <p class="benefits">Benefits:</p>
+            <ul class="benefit-list"></ul>
+            <br>
+        </section>
+
+    </div>
+
+    <script src="functional.js"></script>
+</body>
+</html>
